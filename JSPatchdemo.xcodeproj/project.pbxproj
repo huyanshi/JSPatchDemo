@@ -14,6 +14,11 @@
 		908C6F041DC6E5DB009F4D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908C6F021DC6E5DB009F4D20 /* LaunchScreen.storyboard */; };
 		908C6F0F1DC6E5DB009F4D20 /* JSPatchdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908C6F0E1DC6E5DB009F4D20 /* JSPatchdemoTests.swift */; };
 		908C6F1A1DC6E5DB009F4D20 /* JSPatchdemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908C6F191DC6E5DB009F4D20 /* JSPatchdemoUITests.swift */; };
+		908C6F281DC6E82A009F4D20 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908C6F271DC6E82A009F4D20 /* TestViewController.swift */; };
+		908C6F2A1DC6E8AA009F4D20 /* GroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908C6F291DC6E8AA009F4D20 /* GroupTableViewController.swift */; };
+		908C6F2C1DC6E8B1009F4D20 /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 908C6F2B1DC6E8B1009F4D20 /* demo.js */; };
+		908C6F311DC6E941009F4D20 /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 908C6F2F1DC6E941009F4D20 /* JPEngine.m */; };
+		908C6F321DC6E941009F4D20 /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 908C6F301DC6E941009F4D20 /* JSPatch.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,13 @@
 		908C6F151DC6E5DB009F4D20 /* JSPatchdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPatchdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		908C6F191DC6E5DB009F4D20 /* JSPatchdemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSPatchdemoUITests.swift; sourceTree = "<group>"; };
 		908C6F1B1DC6E5DB009F4D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908C6F271DC6E82A009F4D20 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		908C6F291DC6E8AA009F4D20 /* GroupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewController.swift; sourceTree = "<group>"; };
+		908C6F2B1DC6E8B1009F4D20 /* demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
+		908C6F2E1DC6E941009F4D20 /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		908C6F2F1DC6E941009F4D20 /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		908C6F301DC6E941009F4D20 /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+		908C6F331DC6ECDC009F4D20 /* JSPatchDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSPatchDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,17 @@
 		908C6EF81DC6E5DB009F4D20 /* JSPatchdemo */ = {
 			isa = PBXGroup;
 			children = (
+				908C6F2D1DC6E941009F4D20 /* JSPatch */,
+				908C6F2B1DC6E8B1009F4D20 /* demo.js */,
 				908C6EF91DC6E5DB009F4D20 /* AppDelegate.swift */,
 				908C6EFB1DC6E5DB009F4D20 /* ViewController.swift */,
 				908C6EFD1DC6E5DB009F4D20 /* Main.storyboard */,
+				908C6F291DC6E8AA009F4D20 /* GroupTableViewController.swift */,
+				908C6F271DC6E82A009F4D20 /* TestViewController.swift */,
 				908C6F001DC6E5DB009F4D20 /* Assets.xcassets */,
 				908C6F021DC6E5DB009F4D20 /* LaunchScreen.storyboard */,
 				908C6F051DC6E5DB009F4D20 /* Info.plist */,
+				908C6F331DC6ECDC009F4D20 /* JSPatchDemo-Bridging-Header.h */,
 			);
 			path = JSPatchdemo;
 			sourceTree = "<group>";
@@ -123,6 +140,16 @@
 				908C6F1B1DC6E5DB009F4D20 /* Info.plist */,
 			);
 			path = JSPatchdemoUITests;
+			sourceTree = "<group>";
+		};
+		908C6F2D1DC6E941009F4D20 /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				908C6F2E1DC6E941009F4D20 /* JPEngine.h */,
+				908C6F2F1DC6E941009F4D20 /* JPEngine.m */,
+				908C6F301DC6E941009F4D20 /* JSPatch.js */,
+			);
+			path = JSPatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +220,7 @@
 				TargetAttributes = {
 					908C6EF51DC6E5DA009F4D20 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = SAYZ4D25BC;
 					};
 					908C6F091DC6E5DB009F4D20 = {
 						CreatedOnToolsVersion = 7.1;
@@ -230,8 +258,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				908C6F041DC6E5DB009F4D20 /* LaunchScreen.storyboard in Resources */,
+				908C6F321DC6E941009F4D20 /* JSPatch.js in Resources */,
 				908C6F011DC6E5DB009F4D20 /* Assets.xcassets in Resources */,
 				908C6EFF1DC6E5DB009F4D20 /* Main.storyboard in Resources */,
+				908C6F2C1DC6E8B1009F4D20 /* demo.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				908C6EFC1DC6E5DB009F4D20 /* ViewController.swift in Sources */,
+				908C6F311DC6E941009F4D20 /* JPEngine.m in Sources */,
+				908C6F2A1DC6E8AA009F4D20 /* GroupTableViewController.swift in Sources */,
+				908C6F281DC6E82A009F4D20 /* TestViewController.swift in Sources */,
 				908C6EFA1DC6E5DB009F4D20 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +432,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JSPatchdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.gavinswift.JSPatchdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/JSPatchDemo/JSPatchDemo-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -410,10 +445,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JSPatchdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.gavinswift.JSPatchdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/JSPatchDemo/JSPatchDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
