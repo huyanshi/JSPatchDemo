@@ -118,8 +118,9 @@ Runtime基本是用C和汇编写的，可见苹果为了动态系统的高效而
 * 3.获取补丁版本的请求回来后，跟本地的补丁版本进行对比。
 * 4.如果本地补丁版本小于必须版本，则提示用户，展示下载补丁界面，进行进程同步的补丁下载。下载完成后重新加载App和最新补丁，再进入App。
 * 5.如果本地补丁版本不小于必须版本，但小于最新版本，则进入App，不影响用户操作。同时进行后台进程异步静默下载，下载后补丁保存在本地。下次App启动时再加载最新补丁。
-* 6.如果版本为最新，则进入App。
+* 6.如果版本为最新，则进入App。<br>
 ![](https://github.com/huyanshi/JSPatchDemo/blob/master/Patch_client_encrypt.png)<br>
+
 ## 完整的流程图
 ![](https://github.com/huyanshi/JSPatchDemo/blob/master/Patch_server-client.png)
 
