@@ -15,6 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        JPEngine.startEngine()
+        let sourcePath = NSBundle.mainBundle().pathForResource("demo", ofType: "js")
+        let script = try! String.init(contentsOfFile: sourcePath!, encoding: NSUTF8StringEncoding)
+        JPEngine.evaluateScript(script)
         // Override point for customization after application launch.
         return true
     }
