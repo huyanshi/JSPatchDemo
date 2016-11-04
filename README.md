@@ -125,17 +125,17 @@ Runtime基本是用C和汇编写的，可见苹果为了动态系统的高效而
 ![](https://github.com/huyanshi/JSPatchDemo/blob/master/Patch_server-client.png)
 
 # 参考文献
-* [1] bang.JSPatch[DB/OL].https://github.com/bang590/JSPatch/blob/master/README-CN.md，2015-12-23/2016-10-17.
-* [2] 上官soyo.JSPatch技术文档[DB/OL]. http://www.jianshu.com/p/0cb81bf23d7a，2015-12-13/2016-10-17.
-* [3] bang.JSPatch平台介绍[DB/OL]. http://blog.cnbang.net/works，2016-3-10/2016-10-17.
-* [4] 颜风.基于JSPatch的iOS应用线上Bug的即时修复方案[DB/OL]. http://www.ios122.com/2015/12/jspatconline，2015-12-7/2016-10-18.
-* [5] 七牛云存储.Who is using JSPatch[EB/OL]. http://using.jspatch.org，2015/2016-10-17.
-* [6] 中证网编辑部.《我要上头条》第七期[J/OL]，http://www.fjfqrd.cn/keji/jiadian/83219.html，2015-6-11/2016-10-17.
-* [7] 七七.iOS Runtime原理及使用[DB/OL]. http://www.cnblogs.com/jys509/p/5207159.html，2016-2-22/2016-10-17.
-* [8] 黄兢成. 从Objective-C到Swift[DB/OL]. http://www.csdn.net/article/2014-07-08/2820568，2014-07-08/2016-10-18.
-* [9] bang.JSPatch-动态更新iOS APP[DB/OL]. http://blog.cnbang.net/works/2767，2015-5-25/2016-10-18.
-* [10] 尹峥伟. Swift Runtime分析：还像OC Runtime一样吗？[DB/OL]. http://www.jianshu.com/p/99ecdb4622c5，2016-03-29/2016-10-18.
-* [11] 祭遵. JSPatch在Swift中的应用（一）[DB/OL]. http://www.jianshu.com/p/e2eb7b4861c5，2016-4-15/2016-10-24.
+* [1] bang.JSPatch[DB/OL].https://github.com/bang590/JSPatch/blob/master/README-CN.md ，2015-12-23/2016-10-17.
+* [2] 上官soyo.JSPatch技术文档[DB/OL]. http://www.jianshu.com/p/0cb81bf23d7a ，2015-12-13/2016-10-17.
+* [3] bang.JSPatch平台介绍[DB/OL]. http://blog.cnbang.net/works ，2016-3-10/2016-10-17.
+* [4] 颜风.基于JSPatch的iOS应用线上Bug的即时修复方案[DB/OL]. http://www.ios122.com/2015/12/jspatconline ，2015-12-7/2016-10-18.
+* [5] 七牛云存储.Who is using JSPatch[EB/OL]. http://using.jspatch.org ，2015/2016-10-17.
+* [6] 中证网编辑部.《我要上头条》第七期[J/OL]，http://www.fjfqrd.cn/keji/jiadian/83219.html ，2015-6-11/2016-10-17.
+* [7] 七七.iOS Runtime原理及使用[DB/OL]. http://www.cnblogs.com/jys509/p/5207159.html ，2016-2-22/2016-10-17.
+* [8] 黄兢成. 从Objective-C到Swift[DB/OL]. http://www.csdn.net/article/2014-07-08/2820568 ，2014-07-08/2016-10-18.
+* [9] bang.JSPatch-动态更新iOS APP[DB/OL]. http://blog.cnbang.net/works/2767 ，2015-5-25/2016-10-18.
+* [10] 尹峥伟. Swift Runtime分析：还像OC Runtime一样吗？[DB/OL]. http://www.jianshu.com/p/99ecdb4622c5 ，2016-03-29/2016-10-18.
+* [11] 祭遵. JSPatch在Swift中的应用（一）[DB/OL]. http://www.jianshu.com/p/e2eb7b4861c5 ，2016-4-15/2016-10-24.
 
 
 
