@@ -110,7 +110,8 @@ Runtime基本是用C和汇编写的，可见苹果为了动态系统的高效而
 * 4.客户端拿到加密后的 MD5 值，通过保存在客户端的公钥解密。
 * 5.客户端计算脚本文件的 MD5 值。
 * 6.对比第 4/5 步的两个 MD5 值（分别是客户端和服务端计算出来的 MD5 值），若相等则通过校验。
-![](https://github.com/huyanshi/JSPatchDemo/blob/master/Pathch_encrypt.png)
+![](https://github.com/huyanshi/JSPatchDemo/blob/master/Pathch_encrypt.png)<br>
+
 ## 4.3.客户端策略
 客户端具体策略如下图所示:
 * 1.用户打开App时，同步进行本地补丁的加载。
